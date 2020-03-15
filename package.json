@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/BigLazybones/documents/issues"
   },
-  "homepage": "https://github.com/BigLazybones/documents#readme"
+  "homepage": "https://github.com/BigLazybones/documents#readme",
+  "devDependencies": {
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  }
 }

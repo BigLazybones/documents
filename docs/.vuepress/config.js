@@ -12,6 +12,12 @@ module.exports = {
     }
   },
   themeConfig: {
+    // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+    repo: 'BigLazybones/documents',
+    // 默认是 false, 设置为 true 来启用
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: '编辑文档',
     nav: [
       { text: "Home", link: "/" },
       {
@@ -30,12 +36,7 @@ module.exports = {
           { text: "Git", link: "/git/" }
         ]
       },
-      { text: "关于我", link: "/about/" },
-      {
-        text: "GitHub",
-        link: "https://github.com/BigLazybones",
-        target: "_blank"
-      }
+      { text: "关于我", link: "/about/" }
     ],
     sidebar: "auto",
     lastUpdated: '上次更新',   //最后更新时间

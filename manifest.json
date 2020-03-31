@@ -1,0 +1,15 @@
+{
+  "name": "lazywu",
+  "short_name": "lazywu",
+  "start_url": "https://lazywu.com/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "lazywu的笔记",
+  "icons": [
+    {
+      "src": "/avatar.jpeg",
+      "sizes": "160x160",
+      "type": "image/png"
+    }
+  ]
+}
